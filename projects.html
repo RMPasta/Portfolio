@@ -3,24 +3,49 @@
     <head>
         <title>Projects</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
     </head>
 
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <a href="index.html">Home</a>
-                    <a href="bio.html">Bio</a>
-                    <a href="projects.html">Projects</a>
-                    <a href="resume.html">Projects</a>
-                </ul>
-            </nav>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html" class="navbtn">Home</a>
+                <a href="bio.html" class="navbtn">Bio</a>
+                <img src="bonk.jpg" alt="my face" id="face">
+            </ul>
+        </nav>
+    </header>  
 
+    <body>
+  
             <h1>Ryan Malmos</h1>
             <h2>Projects</h2>
+            <hr>
+            <br>
+            <h2 id="header">Golden Tee Tracker</h2>
+            <p><button id="gtpreview" class="navbtn">Preview</button></p>
+            <img src="GTT.jpg" alt="goldentee project" id="gtt">
+            <p><a href="https://github.com/RMPasta/golden-tee-tracker" class="navbtn" id="hidetest">GitHub</a></p>
+            <p>(in progress)</p>
+            
+            <p>My buddies have a Golden Tee arcade cabinet and with this program, I intend to<br>
+            have a way of tracking historical results and highscores.<br>
+            Even adding our own game mode to the mix!</p>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <h2 id="header">Mixed Messages</h2>
+            <p><button id="mixpreview" class="navbtn">Preview</button></p>
+            <img src="mixedmessage.jpg" alt="mixed messages project" id="mixedproject">
+            <p><a href="https://github.com/RMPasta/mixed-messages" class="navbtn">GitHub</a></p>
+            <p>(horoscope-esque generator)</p>
+            <p>This project utilizes a function that takes in an array and returns a random index.<br>
+            Using string interpolation and this function, we get a randomized message at the push of a button.</p>
+            <hr>
 
 
-        </header>
+        
 
     </body>
 
